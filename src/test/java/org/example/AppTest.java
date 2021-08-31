@@ -33,4 +33,10 @@ public class AppTest
         assertEquals( 0, this.calculadora.resta(1, 2));
 
     }
+
+    @Test
+    public void testMultiplica() {
+        assertEquals( 4, this.calculadora.multiplicacion(2, 2));
+
+    }
 }
