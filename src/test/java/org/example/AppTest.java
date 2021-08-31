@@ -25,6 +25,7 @@ public class AppTest
 
     }
 
+    @Test
     public void testResta()
     {
 
