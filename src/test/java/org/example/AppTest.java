@@ -30,7 +30,7 @@ public class AppTest
     {
 
         assertEquals( 4, this.calculadora.resta(5, 1));
-        assertEquals( 0, this.calculadora.resta(1, 2));
+        assertEquals( -1, this.calculadora.resta(1, 2));
 
     }
 
