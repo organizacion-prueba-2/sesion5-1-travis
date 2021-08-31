@@ -1,7 +1,6 @@
 package org.example;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -10,11 +9,12 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    private App calculadora;
+    private final App calculadora;
 
     public AppTest() {
         this.calculadora = new App();
     }
+
     @Test
     public void testSuma()
     {
