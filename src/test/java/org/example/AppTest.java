@@ -24,6 +24,17 @@ public class AppTest
         assertEquals( 7, this.calculadora.suma(num1, num2));
 
     }
+    
+    @Test
+    public void testSuma2()
+    {
+        int num1 = 3;
+        int num2 = 4;
+
+        assertEquals( 8, this.calculadora.suma(num1, num2));
+    }
+    
+    
 
     @Test
     public void testResta()
